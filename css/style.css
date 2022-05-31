@@ -13,6 +13,19 @@ button{
     letter-spacing: 0.06em;
     border: 0px;
 }
+button:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+a {
+color: #757575;
+color: #212121;
+text-decoration: none;
+}
+a:hover{
+    color: #2196F3;
+    text-decoration: underline;
+}
 .body{
     position: relative;
     width: 1600px;
@@ -34,6 +47,9 @@ button{
     top: 0px;
     background: #FFFFFF;
 }
+
+/* Верхня линия */
+
 .logo-text-link{
     font-family: 'Raleway';
     font-weight: 700;
@@ -56,7 +72,7 @@ button{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: #212121;
 }
 .nav-list-portfolio{
     position: absolute;
@@ -68,7 +84,6 @@ button{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
 }
 .nav-list-contacts{
     position: absolute;
@@ -91,7 +106,7 @@ button{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: #757575;
 }
 .tel{
     position: absolute;
@@ -105,6 +120,9 @@ button{
     letter-spacing: 0.02em;
     color: #757575;
 }
+
+/* Шапка голавной */
+
 .solution-section{
     position: absolute;
     width: 1600px;
@@ -137,11 +155,34 @@ button{
     border-radius: 4px;
     cursor: pointer;
 }
-.attention-section{
+
+/* Особености */
+.attention-item-one{
     position: absolute;
-    width: 1170px;
+    width: 270px;
     height: 101px;
     left: 215px;
+    top: 774px;
+}
+.attention-item-two{
+    position: absolute;
+    width: 270px;
+    height: 101px;
+    left: 515px;
+    top: 774px;
+}
+.attention-item-three{
+    position: absolute;
+    width: 270px;
+    height: 101px;
+    left: 815px;
+    top: 774px;
+}
+.attention-item-four{
+    position: absolute;
+    width: 270px;
+    height: 101px;
+    left: 1115px;
     top: 774px;
 }
 .action{
@@ -155,59 +196,52 @@ button{
     line-height: 24px;
     color: #757575;
 }
-.activity-section{
-    position: absolute;
-    width: 1170px;
-    height: 386px;
-    left: 215px;
-    top: 969px;
-}
+
+/* Чем ми занимаемся */
 .our-activity{
+    position: absolute;
+    width: 376px;
+    height: 42px;
+    left: 612px;
+    top: 969px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
 }
-.img-comp{
+.activity-item-comp{
     position: absolute;
     width: 370px;
     height: 294px;
     left: 215px;
     top: 1061px;
 }
-.img-phone{
+.activity-item-phone{
     position: absolute;
     width: 370px;
     height: 294px;
     left: 615px;
     top: 1061px;
 }
-.img-col{
+.activity-item-col{
     position: absolute;
     width: 370px;
     height: 294px;
     left: 1015px;
     top: 1061px;
 }
-.team-section{
-    position: absolute;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
-    background: #F5F4FA;
-}
+
+/* Наша команда */
 .our-team{
+    position: absolute;
+    width: 264px;
+    height: 42px;
+    left: 668px;
+    top: 1543px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
 }
 .team-item-1{
     position: absolute;
-    width: 1170px;
+    width: 270px;
     height: 368px;
     left: 215px;
     top: 1635px;
@@ -293,6 +327,9 @@ button{
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+/* Подвал страниц */
+
 .page-footer{
     position: absolute;
     width: 1600px;
@@ -315,7 +352,6 @@ button{
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
-
 }
 .mail-address{
     font-weight: 400;
@@ -329,4 +365,128 @@ button{
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* Портфолио */
+
+.open-btn-1{
+    position: absolute;
+    width: 73px;
+    height: 38px;
+    left: 495px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    color: #212121;
+}
+.open-btn-2{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    color: #212121;
+}
+.open-btn-3{
+    position: absolute;
+    width: 145px;
+    height: 38px;
+    left: 712px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    color: #212121;
+}
+.open-btn-4{
+    position: absolute;
+    width: 103px;
+    height: 38px;
+    left: 865px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    color: #212121;
+}
+.open-btn-5{
+    position: absolute;
+    width: 130px;
+    height: 38px;
+    left: 976px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    color: #212121;
+}
+/* Проекти */
+
+.prj-1{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+}
+.prj-2{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
+}
+.prj-3{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 262px;
+}
+.prj-4{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 696px;
+}
+.prj-5{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 696px;
+}
+.prj-6{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 696px;
+}
+.prj-7{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 1130px;
+}
+.prj-8{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 1130px;
+}
+.prj-9{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 1130px;
+}
+.name-prj{
+    color: #212121;
+}
+.category{
+    color: #757575;
 }
