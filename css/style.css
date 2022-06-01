@@ -140,7 +140,6 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
 }
 .name-work{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -173,7 +172,6 @@ color: var(--accent-color);
     color:var(--footer-logo-left-color);
 }
 .contact-footer{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -182,7 +180,7 @@ color: var(--accent-color);
 
 /* Портфолио */
 
-.open-btn{
+.filter-btn{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -192,7 +190,7 @@ color: var(--accent-color);
     cursor: pointer;
     background-color: var(--background-iteam-color);
 }
-.open-btn:hover{
+.filter-btn:hover{
     background-color: var(--accent-color);
     color: var(--second-title-color);
 }
@@ -210,7 +208,6 @@ color: var(--accent-color);
     color: var(--accent-color);
 }
 .category{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.66;
     letter-spacing: 0.03em;
