@@ -17,19 +17,43 @@ body{
     background-color: #ffffff;
     letter-spacing: 0.03em;
 }
+h1,h2,h3,h4,h5,p{
+margin-top: 0;
+}
+p:last-child{
+    margin: 0;
+}
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .link {
     text-decoration: none;
+    color: currentColor;
 }
 
 .hidden-element {
     opacity: 0;
 }
-/* Верхня линия */
 
+/* cтили для container */
+
+.container{
+    outline: 2px solid red;
+    outline-offset: -2px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Верхня линия header */
+.header-container{
+    display: flex;
+    align-items: center;
+}
 .logo-header{
     font-family: var(--logo-font);
     font-weight: 700;
@@ -37,11 +61,25 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--header-logo-right-color);
+    margin-right: 93px;
 }
 .logo-header>span {
     color: var(--header-logo-left-color);
 }
+.header-nav{
+    display: flex;
+}
+.header-nav-item{
+    margin-right: 50px;
+}
+.header-nav-item:last-child{
+    margin-right: 0;
+}
 .nav-list-item{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -55,7 +93,21 @@ color: var(--accent-color);
 .current {
     color: var(--accent-color);
 }
+.header-contact{
+    display: flex;
+    margin-left: auto;
+}
+.header-contact-item{
+    margin-right: 50px;
+}
+.header-contact-item:last-child{
+    margin-right: 0;
+}
 .contact{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -65,7 +117,6 @@ color: var(--accent-color);
 .contact:hover,.contact:focus{
     color: var(--accent-color);
 }
-
 /* Шапка голавной */
 
 .solution-section{
@@ -200,7 +251,7 @@ color: var(--accent-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06;
+    letter-spacing: 0.06em;
     color: var(--main-title-color);
 }
 .name-prj:hover,
